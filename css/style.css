@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image:  url(../images/net.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+    
+  
+
+}
+.navul{
+    
+    margin-top: 20px;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+.lit{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color :black;
+    background-color:silver;
+    border: 1px solid black;
+    padding:5px 20px ;
+    margin-left: 50px;
+    margin-right: 10PX;
+}
+
+ul li a:hover {
+  
+    color:white;
+    background-color: purple;
+}
+
+
+/* slideshow */
+
+.product{
+    width: 100%;
+   
+   margin-left: auto;
+   margin-right: auto;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.product-list{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    float: left;
+    width: 31%;
+    padding: 10px 10px;
+    /* background-color: rgb(224, 219, 212) */
+    color: snow;
+    
+
+}
+
+img{
+    
+    max-height: 300px;
+    max-width: 100%;
+
+
+}
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec1{
+    position: relative;
+}
+
+.foot{
+    text-align: center;
+}
+.secf{
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: blanchedalmond;
+    width: 100%;
+    
+
+    padding: 10px 10px;
+}
+
+.tex{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: blanchedalmond;
+    
+    width: 50%;
+    margin:auto;
+}
+ 
+
+.btn{
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 2rem;
+    
+    
+}
+.h{
+    margin: 15px;
+}
+
+.btn:hover{
+    color:black ;
+    background-color: purple;
+}
+
+
+/* register styling */
+
+
+.container{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    /* text-align: center; */
+    border: 1px solid black;
+    height: 80%;
+    width: 40%;
+    background-color:silver;
+
+}
+.pad{
+    
+    padding: 5px 100px;
+    width: 50%;
+    margin: 10px 50px;
+    border:none;
+    outline: none;
+    border-radius: 0.2rem;
+    
+}
+.textf{
+    font-size: 1.2rem;
+    margin-left: 30px;
+    text-size-adjust: 2px;
+}
+.padk{
+    border: 1px solid black;
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+
+
+/* login */
+
+.login{
+    border: 1px solid black;
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+
+
+
+.loginf{
+    font-size: 1.2rem;
+    margin-left: 30px;
+    text-size-adjust: 2px;
+
+}
+
+.lgcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    /* text-align: center; */
+    border: 1px solid black;
+    height: 40%;
+    width: 35%;
+    background-color:silver;
+
+}
+.padl{
+    padding: 5px 45px;
+    width: 50%;
+    margin: 10px 50px;
+    border:none;
+    outline: none;
+    border-radius: 0.2rem;
+    
+}
+
+/* about */
+
+.abouts{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+.para{
+    
+    float: left;
+    width: 45%;
+    margin: 5px 10px;
+}
+.aimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+.abouth{
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+}
+.heding-about{
+    text-align: center;
+    color: purple;
+    top: 15%;
+    border: 1px solid wheat;
+    background-color: blanchedalmond;
+    
+}
+/* address */
+
+.add{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+}
+.mapk{
+    position:absolute;
+    top: 650px;
+   
+    transform: translate(0%,-50%);
+    padding: auto;
+    width: 100%;
+    
+}
+
+.conntact
+{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    position:absolute;
+    top: 200px;
+    text-align: center;
+    color:black;
+   
+    transform: translate(0%,-50%);
+    padding: auto;
+    width: 100%;
+
+}
